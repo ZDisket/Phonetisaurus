@@ -46,42 +46,14 @@ $ echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib:/usr/local/lib/
 $ source ~/.bashrc
 ```
 
-Checkout the latest Phonetisaurus from master
+Install Qt Creator
+Checkout Phonetisaurus
 ```
-$ git clone https://github.com/AdolfVonKleist/Phonetisaurus.git
-$ cd Phonetisaurus
-$ ./configure
-$ make
-$ sudo make install
+$ git clone https://github.com/ZDisket/Phonetisaurus.git
 ```
+Open the .pro file and compile from there
 
-or, if you want to compile with python bindings
-```
-$ git clone https://github.com/AdolfVonKleist/Phonetisaurus.git
-$ cd Phonetisaurus
-$ sudo pip install pybindgen
-$ ./configure --enable-python
-$ make
-$ sudo make install
-$ cd python
-$ cp ../.libs/Phonetisaurus.so .
-$ sudo python setup.py install
-$ cd
-```
 
-or, if you want to compile with python3 bindings
-```
-$ git clone https://github.com/AdolfVonKleist/Phonetisaurus.git
-$ cd Phonetisaurus
-$ sudo pip3 install pybindgen
-$ PYTHON=python3 ./configure --enable-python
-$ make
-$ sudo make install
-$ cd python
-$ cp ../.libs/Phonetisaurus.so .
-$ sudo python3 setup.py install
-$ cd
-```
 
 
 Grab and install mitlm to build a quick test model with the cmudict (5m):
