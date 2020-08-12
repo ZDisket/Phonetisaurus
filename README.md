@@ -1,4 +1,4 @@
-## Phonetisaurus G2P ##
+## Phonetisaurus G2P but it's a static library ##
 [![Build Status](https://travis-ci.org/AdolfVonKleist/Phonetisaurus.svg?branch=master)](https://travis-ci.org/AdolfVonKleist/Phonetisaurus)
 
 This repository contains scripts suitable for training, evaluating and using grapheme-to-phoneme
