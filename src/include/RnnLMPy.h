@@ -41,7 +41,7 @@
 #include <fst/fstlib.h>
 #include <string>
 #include <vector>
-#include "./rnnlmlib.h"
+#include "src/3rdparty/rnnlm/rnnlmlib.h"
 
 using namespace fst;
 

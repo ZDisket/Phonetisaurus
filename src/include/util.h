@@ -30,7 +30,7 @@
 *
 */
 #include <fst/fstlib.h>
-#include <utf8.h>
+#include "utfcpp/utf8.h"
 #include <unordered_map>
 #include <string>
 #include <vector>

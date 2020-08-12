@@ -1,8 +1,8 @@
 #include <fst/fstlib.h>
-#include "LegacyRnnLMHash.h"
-#include "RnnLMDecoder.h"
-#include "LegacyRnnLMDecodable.h"
-#include "LegacyRnnLMReader.h"
+#include "include/LegacyRnnLMHash.h"
+#include "include/RnnLMDecoder.h"
+#include "include/LegacyRnnLMDecodable.h"
+#include "include/LegacyRnnLMReader.h"
 using namespace fst;
 
 //typedef std::unordered_map<std::string, std::vector<int> > FMAP;

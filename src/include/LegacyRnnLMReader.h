@@ -1,7 +1,7 @@
 #ifndef SRC_INCLUDE_LEGACYRNNLMREADER_H_
 #define SRC_INCLUDE_LEGACYRNNLMREADER_H_
 #include <string>
-#include "./rnnlmlib.h"
+#include "rnnlm/rnnlmlib.h"
 using std::string;
 
 template<class D, class H>
